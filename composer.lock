@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d939269e0b56e7f6138e68ecf6b39f89",
+    "packages": [
+        {
+            "name": "wordpress-phoenix/abstract-plugin-base",
+            "version": "2.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WordPress-Phoenix/abstract-plugin-base.git",
+                "reference": "b10c5dce1943fd78b8cfd5cbe6b78863d7a2f7e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WordPress-Phoenix/abstract-plugin-base/zipball/b10c5dce1943fd78b8cfd5cbe6b78863d7a2f7e9",
+                "reference": "b10c5dce1943fd78b8cfd5cbe6b78863d7a2f7e9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": {
+                    "classmap": [
+                        "src/abstract-plugin.php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Seth Carstens",
+                    "email": "seth.carstens@gmail.com",
+                    "homepage": "http://github.com/scarstens",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP class to extend when building a WordPress plugin allowing you to follow smart plugin setup standards.",
+            "homepage": "https://github.com/WordPress-Phoenix/abstract-plugin-base",
+            "keywords": [
+                "abstract",
+                "boilerplate",
+                "plugin",
+                "standardize",
+                "wordpress"
+            ],
+            "time": "2018-03-21T23:50:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

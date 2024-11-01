@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="sm-dashboard-pages-navigator-tree-wp-plugin">
+    <description>Custom plugin codesniffer exceptions.</description>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>lib/composer/*</exclude-pattern>
+    <exclude-pattern>assets/*</exclude-pattern>
+    <rule ref="WordPress-VIP">
+        <exclude name="WordPress.VIP.SuperGlobalInputUsage" />
+        <exclude name="WordPress.VIP.RestrictedFunctions.switch_to_blog" />
+        <exclude name="WordPress.VIP.RestrictedFunctions.get_page_by_title" />
+        <exclude name="WordPress.VIP.RestrictedFunctions.get_page_by_title_get_page_by_title" />
+    </rule>
+    <rule ref="WordPress-Core"></rule>
+    <rule ref="WordPress">
+        <exclude name="WordPress.WhiteSpace.PrecisionAlignment.Found" />
+    </rule>
+    <rule ref="WordPress.Files.FileName.InvalidClassFileName">
+        <exclude-pattern>/lib/*</exclude-pattern>
+    </rule>
+</ruleset>

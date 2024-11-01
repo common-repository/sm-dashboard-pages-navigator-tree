@@ -1,0 +1,13 @@
+{
+  "config": {
+    "bin-dir": "bin",
+    "vendor-dir": "vendor"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^1"
+  },
+  "scripts": {
+    "test": "./bin/phpcs -s --standard=codesniffer.ruleset.xml --extensions='php,css' ../",
+    "fix": "./bin/phpcbf --standard=codesniffer.ruleset.xml --extensions='php,css' ../"
+  }
+}

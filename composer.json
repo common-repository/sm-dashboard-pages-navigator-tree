@@ -1,0 +1,32 @@
+{
+  "name": "sm-dashboard-pages-navigator-tree",
+  "description": "Dashboard Pages Navigator Tree plus extras!",
+  "type": "wordpress-plugin",
+  "keywords": [
+	"wordpress",
+	"site-options",
+	"utility",
+	"helper"
+  ],
+  "homepage": "https://github.com/WordPress-Phoenix/sm-dashboard-pages-navigator-tree",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+	{
+	  "name": "WordPress Phoenix",
+	  "homepage": "https://github.com/WordPress-Phoenix",
+	  "role": "Group"
+	},
+    {
+      "name": "Seth Carstens",
+      "email": "seth.carstens@gmail.com",
+      "homepage": "https://github.com/scarstens",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+	"WordPress-Phoenix/abstract-plugin-base": "^2.6"
+  },
+  "config": {
+	"vendor-dir": "lib"
+  }
+}
